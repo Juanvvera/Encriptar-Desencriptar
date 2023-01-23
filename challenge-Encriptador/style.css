@@ -1,0 +1,408 @@
+.area-trabajo{
+    
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    
+    background-color:#F3F5FC;
+    border: 3px solid #040c16
+
+
+
+}
+
+
+.Texto-encriptar{
+
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.Texto-Desencriptar{
+    /* Button */
+
+
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.titulo{
+
+    position: absolute;
+    top: 50px;
+    left: 300px;
+
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    
+    letter-spacing: 0em;
+    
+    color: #061320;
+    
+
+}
+
+#banner-Logo{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+ 
+}
+
+.rectangle1{
+    /* Rectangle 1 */
+
+    background: #FFFFFF;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+
+#banner-Muñeco{
+    /* Muñeco */
+
+    position: absolute;
+    left: 32px;
+    top: 283px;
+}
+
+h3{
+
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    top: 579px; 
+    bottom: 307;
+   
+
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #495057;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    
+
+}
+
+.ingresar-texto{
+
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    top: 653px; 
+    bottom: 243;
+
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* or 24px */
+    border: none;
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+
+}
+
+
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+
+
+
+.Encriptar-Texto-button{
+
+    position: absolute;
+    left: 240px;
+    top: 885px;   
+
+    /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+   
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Desencriptar-texto-button{
+
+    position: absolute;
+    left: 592px;
+    top: 885px;
+
+        /* Button */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    
+
+
+}
+
+.leyenda-letras{
+
+    position: absolute;
+    top: 851px;
+    left: 264px;
+    width: 205px;
+    height: 18px;
+    opacity: 80%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+
+
+}
+
+.textoEntrada{
+
+       position: absolute;
+       left: 240px;
+       outline: none;
+       top: 168px;
+       width: 577px;
+       height: 500px;
+    
+    }
+.textarea{      
+
+     width: 100%;
+     height: 100%;
+     outline: none;
+     border: 0;
+     background: #F3F5FC;
+     font-family: 'Inter';
+     font-size: normal;
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 150%;
+     overflow: hidden;
+     resize: none;
+     color: #0A3871;
+
+}
+
+#banner-vector{
+    position: absolute;
+    top: 852px;
+    left: 240px;
+    width: 16px;
+    height: 16px;
+    
+       
+
+    background: #f1f3f5;
+
+}
+
+
+
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+
+   
+   
+    
+    
+    
+
+   
+}
+
+input::placeholder{
+    color: #0A3871;
+    
+}
+
+table{
+    margin: 40px 40px;
+
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight:  bold;
+
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+#copiart{
+    position: relative;
+    width: 336px;
+    height: 67px;
+    top: 845px;
+    left: 32px;
+    box-sizing: border-box;
+    border: 1px solid #0A3871;
+    border-radius: 24px;  
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    display:none ;
+
+
+    
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
